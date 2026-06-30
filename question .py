@@ -53,4 +53,13 @@ elif user_age >= 5 and user_age <= 18:
 else:
     print("Your ticket costs $30.")
 
+user_movie = input("Enter the movie name:")
+if user_movie == "sci-fi":
+    print("You get a 20% discount code: SPACE20") 
+elif user_movie == "comedy":
+    print("You get a 15% discount code: COMEDY15")  
+else:
+    print("You will get 5% discount code: MOVIE5")
+    
+    
 
