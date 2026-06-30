@@ -45,5 +45,11 @@ else:
 for i in range(5):
     print("hurrah!")
 
-
+user_age = int(input("Enter your age: "))
+if user_age < 5:
+    print("Your ticket is free.")
+elif user_age >= 5 and user_age <= 18:
+    print("Your ticket costs $15.")
+else:
+    print("Your ticket costs $30.")
 
