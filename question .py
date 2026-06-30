@@ -53,3 +53,4 @@ elif user_age >= 5 and user_age <= 18:
 else:
     print("Your ticket costs $30.")
 
+
