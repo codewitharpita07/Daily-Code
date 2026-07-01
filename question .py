@@ -37,7 +37,7 @@ else:
     print("Sorry! No discount. ")
 
 temperature = 30
-if temperature <= 40:
+if temperature <= 25:
     print("It's too hot!")
 else:
     print("The temperature is normal.")
@@ -60,6 +60,31 @@ elif user_movie == "comedy":
     print("You get a 15% discount code: COMEDY15")  
 else:
     print("You will get 5% discount code: MOVIE5")
-    
-    
+
+user_score = int(input("Enter your score: "))
+if user_score < 100:
+    print("Keep playing! You are still on level 1.")
+elif user_score >= 100 and user_score <= 199:
+    print("Great job! You have reached level 2. ")
+else:
+    print("Super player! You skipped to level 3 and got a golden badge!")
+
+
+user_ages = [12,19,25,15,30,17]
+for user_age in user_ages:
+    if user_age >= 18:
+        print("Access Granted")
+    else:
+        print("Access Denied")
+
+passwords = ["abc","mypasser123","hello","secret99","123"]
+for password in passwords :
+    if len (password) >= 6:
+        print("strong password")
+    else:
+        print("too short!")
+
+
+
+
 
